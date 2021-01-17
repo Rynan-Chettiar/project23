@@ -34,8 +34,8 @@ function setup() {
 	left= new Box(300, 585, 20, 150)
 	right= new Box(500, 585, 20, 150)
 	
-	groundSprite=createSprite(width/2, height-35, width,10);
-	groundSprite.shapeColor=color(255)
+	//groundSprite=createSprite(width/2, height-35, width,10);
+	//groundSprite.shapeColor=color(255)
 
 	
 	packageBody = Bodies.circle(width/2 , 200 , 20 , {restitution:0.1, isStatic:true});
@@ -43,8 +43,8 @@ function setup() {
 	
 
 	
-	ground = Bodies.rectangle(width/2, 650, width, 10 , {isStatic:true} );
- 	World.add(world, ground);
+	//ground = Bodies.rectangle(width/2, 650, width, 10 , {isStatic:true} );
+ 	//World.add(world, ground);
 
 
 	Engine.run(engine);
